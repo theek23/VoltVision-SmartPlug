@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit List</title>
+</head>
+<body>
+    <h1>Unit List</h1>
+    <ul>
+    {% for unit in units %}
+        <li>{{ unit.time_date }} - {{ unit.watt }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
